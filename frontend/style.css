@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  padding: 30px;
+  color: #2c3e50;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+form input, form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  grid-column: span 2;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.book-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 6px solid #3498db;
+  border-radius: 12px;
+}
+
+.book-card h3 {
+  margin: 0 0 10px;
+}
+
+.actions button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions .edit {
+  background-color: #2ecc71;
+}

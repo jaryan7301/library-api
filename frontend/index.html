@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Library Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <h1>📚 Library Manager</h1>
+    <form id="bookForm">
+      <input type="text" name="title" placeholder="Book Title" required />
+      <input type="text" name="author" placeholder="Author" required />
+      <input type="number" name="year" placeholder="Year" />
+      <input type="text" name="genre" placeholder="Genre" />
+      <button type="submit">➕ Add Book</button>
+    </form>
+
+    <h2>📘 Book List</h2>
+    <input type="text" id="searchInput" placeholder="🔍 Search by title, author, genre..." />
+    <div id="booksContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
